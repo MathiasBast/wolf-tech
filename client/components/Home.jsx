@@ -7,7 +7,7 @@ const Home = () => {
         <h1 className='main-headder' >WOLF TECH</h1>
         <h2 className='main-subheadding' >-CCTV   -ALARMS   -ACCESS CONTROL</h2>
       </div>
-      <div>
+      <div className='about-text' >
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet nisl purus in mollis nunc sed.
           Urna cursus eget nunc scelerisque viverra. Faucibus scelerisque eleifend donec pretium. Elementum eu facilisis sed odio. Tortor at risus viverra adipiscing at in tellus
