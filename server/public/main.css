@@ -37,10 +37,20 @@ body{
 }
 
 .navButton{
-  height: 20px;
-  width: 60px;
+  height: 30px;
+  width: 90px;
+  margin: 3px;
+  background-color: blue;
+  color: white;
+}
+
+.navButton:hover {
+  border-color: red;
+  color: red;
 }
 
 .about-text{
   text-align: center;
+  width: 80%;
+  margin: 30px auto 30px auto;
 }
