@@ -1,0 +1,23 @@
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
+.main-container {
+  height: 250px;
+  width: auto;
+  border: 2px solid black;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.main-headder{
+  font-weight: 700;
+  font-size: 70px;
+  color: blue;
+}
+
+.main-subheadding{
+  font-weight: 700;
+  font-size: 30px;
+  color: blue;
+}
