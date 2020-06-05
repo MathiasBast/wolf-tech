@@ -2,7 +2,10 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <h1>Home</h1>
+    <div>
+      <h1>WOLF TECH</h1>
+      <p>-CCTV  -ALARMS  -ACCESS CONTROL</p>
+    </div>
   )
 }
 
