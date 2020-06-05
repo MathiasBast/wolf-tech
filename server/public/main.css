@@ -23,3 +23,7 @@ body{
   font-size: 30px;
   color: blue;
 }
+
+.profile-pic{
+  height: 80px;
+}

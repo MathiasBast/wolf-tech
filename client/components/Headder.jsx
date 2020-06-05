@@ -1,12 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <>
       <div>
-        <button>
+        <img className='profile-pic' src='/images/Wolf.jpg' alt='wolf' />
+        <Link to='/'><button>
           Home
-        </button>
+        </button></Link>
       </div>
     </>
   )
