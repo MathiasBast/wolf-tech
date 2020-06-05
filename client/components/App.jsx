@@ -1,8 +1,9 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 
-import Home from './Home'
 import Headder from './Headder'
+import Home from './Home'
+import About from './About'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
     <Route path='/' component={Headder} />
       <Switch>
         <Route exact path='/' component={Home} />
+        <Route exact path='/about' component={About} />
       </Switch>
     </>
   )

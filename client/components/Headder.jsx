@@ -7,8 +7,11 @@ const Footer = () => {
       <div className='container' >
         <img className='profile-pic' src='/images/Wolf.jpg' alt='wolf' />
         <div style={{ display: 'inline' }}>
-          <Link to='/'><button>
+          <Link to='/'><button className='navButton' >
             Home
+          </button></Link>
+          <Link to='/about'><button className='navButton' >
+            About
           </button></Link>
         </div>
       </div>

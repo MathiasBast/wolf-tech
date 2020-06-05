@@ -35,3 +35,12 @@ body{
   margin: 0px auto 0px auto;
   width: 50%;
 }
+
+.navButton{
+  height: 20px;
+  width: 60px;
+}
+
+.about-text{
+  text-align: center;
+}
