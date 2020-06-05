@@ -3,11 +3,13 @@ body{
 }
 
 .main-container {
-  height: 250px;
-  width: auto;
-  border: 2px solid black;
+  height: 300px;
+  width: 100%;
   text-align: center;
   margin: 20px 0px 20px 0px;
+  background-image: url('/images/HomeBeach.jpg');
+  background-position: 50% 75%;
+  background-repeat: no-repeat;
 }
 
 .main-headder{
