@@ -2,7 +2,16 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <h1>COnstact</h1>
+    <>
+      <div className='main-container' >
+        <h1 className='main-headder' >WOLF TECH</h1>
+        <h2 className='main-subheadding' >Contact</h2>
+      </div>
+      <div>
+        <a href = "mailto: wbast@xnet.co.nz">Email: wbast@xnet.co.nz</a>
+        <p>Phone Number: 021 660 688</p>
+      </div>
+    </>
   )
 }
 

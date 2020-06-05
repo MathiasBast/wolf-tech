@@ -13,6 +13,9 @@ const Footer = () => {
           <Link to='/about'><button className='navButton' >
             About
           </button></Link>
+          <Link to='/contact'><button className='navButton' >
+            Contact
+          </button></Link>
         </div>
       </div>
     </>
