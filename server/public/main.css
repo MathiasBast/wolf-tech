@@ -26,4 +26,12 @@ body{
 
 .profile-pic{
   height: 80px;
+  width: auto;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+
+.container{
+  margin: 0px auto 0px auto;
+  width: 50%;
 }

@@ -4,11 +4,13 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
-      <div>
+      <div className='container' >
         <img className='profile-pic' src='/images/Wolf.jpg' alt='wolf' />
-        <Link to='/'><button>
-          Home
-        </button></Link>
+        <div style={{ display: 'inline' }}>
+          <Link to='/'><button>
+            Home
+          </button></Link>
+        </div>
       </div>
     </>
   )
